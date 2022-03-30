@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider{
+    width: 100%;
+    
+}
+
+.slider__item{
+    font-size: 100px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkkhaki;   
+}
+.slider__controls{
+    display: flex;
+    justify-content: center;
+}
+.slider__controls button{
+    padding: 20px 15px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
